@@ -65,7 +65,7 @@ jobs:
         - name: Get artifact
           uses: actions/download-artifact@v3
           with:
-          name: dist-files
+            name: dist-files
         - name: Deploy
           run: echo "Deploy..."
 
